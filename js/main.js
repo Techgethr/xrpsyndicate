@@ -2,7 +2,7 @@ var urlRPC = "https://rpc-evm-sidechain.xrpl.org";
 var currency = "XRP";
 var networkName = "XRPL EVM Sidechain"
 const chainId = 1440002;
-const milisecondsToWait = 5000;
+const milisecondsToWait = 15000;
 
 var web3 = new Web3(new Web3.providers.HttpProvider(urlRPC));
 const MMSDK = new MetaMaskSDK.MetaMaskSDK();
